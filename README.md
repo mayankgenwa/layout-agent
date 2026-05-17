@@ -23,7 +23,7 @@ cd layout-agent
 cd server
 npm install
 cp .env.example .env
-# Open .env and set: GEMINI_API_KEY=your_key_here
+Open .env and set: GEMINI_API_KEY=your_key_here
 
 ### 3. Set up the client
 cd ../client
