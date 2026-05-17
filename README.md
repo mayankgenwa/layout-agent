@@ -16,23 +16,23 @@ watch the layout JSON and wireframe preview update instantly.
 ## Setup
 
 ### 1. Clone the repo
-git clone <your-repo-url>
+git clone <your-repo-url>,
 cd layout-agent
 
 ### 2. Set up the server
-cd server
-npm install
-cp .env.example .env
+cd server,
+npm install,
+cp .env.example .env,
 Open .env and set: GEMINI_API_KEY=your_key_here
 
 ### 3. Set up the client
-cd ../client
+cd ../client,
 npm install
 
 ### 4. Run
 
 Terminal 1 — server:
-cd server
+cd server,
 node index.js
 # → http://localhost:3001
 
